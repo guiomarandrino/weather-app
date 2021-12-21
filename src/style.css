@@ -1,0 +1,134 @@
+form {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.enter {
+  border-radius: 10px;
+}
+.search {
+  background-color: #ddbea9;
+  color: white;
+  border-radius: 10px;
+}
+.search:hover {
+  background-color: #ffe8d6;
+  color: #3d2b2b;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  color: black;
+  background-color: #ffe8d6;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover {
+  background-color: #cb997e;
+  color: white;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+#city {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Roboto Slab", serif;
+  color: #3d2b2b;
+  padding: 30px 0px 10px 0px;
+  margin: 50px 15px 0px 15px;
+  font-size: 50px;
+  background-image: url(pink.png);
+  background-size: cover;
+}
+
+#current-date {
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "Roboto Slab", serif;
+  color: #3d2b2b;
+  font-size: 22px;
+  padding: 30px 0px 30px 0px;
+  margin: 50px 15px 0px 15px;
+}
+
+#current-temp {
+  font-family: "Roboto Slab", serif;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 0px 0px 7px;
+  font-size: 50px;
+  color: #3d2b2b;
+}
+#celsius-link {
+  font-family: "Roboto Slab", serif;
+  display: inline-block;
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 10px;
+  font-size: 25px;
+  color: #3d2b2b;
+}
+#fahrenheit-link {
+  font-family: "Roboto Slab", serif;
+  display: inline-block;
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 15px 0px 0px;
+  font-size: 25px;
+  color: #3d2b2b;
+}
+#emoji {
+  font-size: 35px;
+}
+#weather-description {
+  display: block;
+  font-family: "Roboto Slab", serif;
+  color: #6b705c;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #6b705c;
+  padding: 10px;
+  margin: 15px;
+  font-size: 18px;
+}
+
+.col {
+  border: 3px #cb997e solid;
+  border-radius: 10px;
+  padding: 15px 5px;
+  margin: 8px;
+}
+.day {
+  font-family: "Roboto Slab", serif;
+  color: #6b705c;
+  display: block;
+  text-align: center;
+}
+.weather {
+  display: block;
+  text-align: center;
+}
+.temp {
+  display: block;
+  text-align: center;
+}
+
+body {
+  background: #eee0cb;
+  border: 3px #6b705c solid;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 35px;
+}
