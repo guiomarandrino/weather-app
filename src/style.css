@@ -35,6 +35,9 @@ button:hover {
   transition: all 200ms ease;
   cursor: pointer;
 }
+.col-4 {
+  margin: 20px 10px;
+}
 #city {
   display: block;
   text-align: center;
@@ -49,20 +52,18 @@ button:hover {
 }
 
 #current-date {
-  display: inline-block;
-  vertical-align: bottom;
   font-family: "Roboto Slab", serif;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   color: #3d2b2b;
   font-size: 22px;
-  padding: 30px 0px 30px 0px;
-  margin: 50px 15px 0px 15px;
 }
 
 #current-temp {
-  font-family: "Roboto Slab", serif;
   display: inline-block;
-  vertical-align: top;
-  padding: 10px 0px 0px 7px;
+  vertical-align: middle;
+  font-family: "Roboto Slab", serif;
   font-size: 50px;
   color: #3d2b2b;
 }
@@ -86,11 +87,12 @@ button:hover {
 }
 #emoji {
   font-size: 35px;
+  vertical-align: middle;
 }
 #weather-description {
   display: block;
   font-family: "Roboto Slab", serif;
-  color: #6b705c;
+  color: #3d2b2b;
   padding: 10px;
 }
 ul {
