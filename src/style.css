@@ -127,6 +127,10 @@ ul {
   text-align: center;
 }
 
+footer {
+  font-family: "Roboto Slab", serif;
+  padding: 15px;
+}
 body {
   background: #eee0cb;
   border: 3px #6b705c solid;
