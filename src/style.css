@@ -62,9 +62,8 @@ button:hover {
 
 #current-temp {
   display: inline-block;
-  vertical-align: middle;
   font-family: "Roboto Slab", serif;
-  font-size: 50px;
+  font-size: 60px;
   color: #3d2b2b;
 }
 #celsius-link {
@@ -86,13 +85,15 @@ button:hover {
   color: #3d2b2b;
 }
 #icon {
-  font-size: 35px;
-  vertical-align: middle;
+  width: 120px;
+  display: block;
+  text-align: right;
+  padding: 55px 0px 0px 0px;
 }
 #weather-description {
-  display: block;
+  text-align: right;
   font-family: "Roboto Slab", serif;
-  color: #3d2b2b;
+  color: #f21170;
   padding: 10px;
 }
 ul {
@@ -107,7 +108,7 @@ ul {
 }
 
 .col {
-  border: 3px #cb997e solid;
+  border: 3px #f21170 solid;
   border-radius: 10px;
   padding: 15px 5px;
   margin: 8px;
