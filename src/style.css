@@ -8,12 +8,12 @@ form {
   border-radius: 10px;
 }
 .search {
-  background-color: #ddbea9;
+  background-color: #cb997e;
   color: white;
   border-radius: 10px;
 }
 .search:hover {
-  background-color: #ffe8d6;
+  background-color: #faedc6;
   color: #3d2b2b;
   transition: all 200ms ease;
   cursor: pointer;
@@ -26,7 +26,7 @@ button {
   border-radius: 10px;
   box-shadow: 2px 2px 5px gray;
   color: black;
-  background-color: #ffe8d6;
+  background-color: #faedc6;
   font-family: "Montserrat", sans-serif;
 }
 button:hover {
@@ -100,7 +100,7 @@ ul {
   display: block;
   text-align: center;
   font-family: "Roboto Slab", serif;
-  color: #6b705c;
+  color: #ff1700;
   padding: 10px;
   margin: 15px;
   font-size: 18px;
@@ -114,7 +114,7 @@ ul {
 }
 .day {
   font-family: "Roboto Slab", serif;
-  color: #6b705c;
+  color: #ff1700;
   display: block;
   text-align: center;
 }
@@ -132,8 +132,8 @@ footer {
   padding: 15px;
 }
 body {
-  background: #eee0cb;
-  border: 3px #6b705c solid;
+  background: #ffd19a;
+  border: 3px #f21170 solid;
   border-radius: 10px;
   padding: 20px 10px;
   margin: 35px;
