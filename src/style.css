@@ -66,7 +66,7 @@ button:hover {
   font-size: 60px;
   color: #3d2b2b;
 }
-#celsius-link {
+#units {
   font-family: "Roboto Slab", serif;
   display: inline-block;
   text-align: left;
@@ -75,15 +75,21 @@ button:hover {
   font-size: 25px;
   color: #3d2b2b;
 }
-#fahrenheit-link {
-  font-family: "Roboto Slab", serif;
-  display: inline-block;
-  text-align: left;
-  padding: 10px 0px 0px 0px;
-  margin: 0px 15px 0px 0px;
-  font-size: 25px;
+
+#celsius-link {
   color: #3d2b2b;
 }
+
+#fahrenheit-link {
+  color: #3d2b2b;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: currentColor;
+  cursor: default;
+}
+
 #icon {
   width: 120px;
   display: block;
