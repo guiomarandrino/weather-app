@@ -72,7 +72,7 @@ button:hover {
   text-align: left;
   padding: 10px 0px 0px 0px;
   margin: 0px 0px 0px 10px;
-  font-size: 25px;
+  font-size: 20px;
   color: #3d2b2b;
 }
 
@@ -119,7 +119,7 @@ ul {
   padding: 15px 5px;
   margin: 8px;
 }
-.day {
+.weather-forecast-date {
   font-family: "Roboto Slab", serif;
   color: #ff1700;
   display: block;
@@ -129,11 +129,13 @@ ul {
   display: block;
   text-align: center;
 }
-.temp {
+.weather-forecast-temperatures {
   display: block;
   text-align: center;
 }
-
+.weather-forecast-temperature-min {
+  color: #ea5c2b;
+}
 footer {
   font-family: "Roboto Slab", serif;
   padding: 15px;
