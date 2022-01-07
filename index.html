@@ -32,6 +32,8 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-application">
       <form id="search-form">
         <input
           class="enter"
@@ -57,7 +59,7 @@
         <div class="col-4">
           <span>
             <img 
-            src="" 
+            src="http://openweathermap.org/img/wn/01d@2x.png" 
             id="icon"
             alt="">
           </img>
@@ -71,55 +73,28 @@
         <span id="weather-description"></span>
         </div>
       </div>
+      <div id="forecast">
       <div class="row align-items-center">
-        <div class="col">
-          <div class="first">
+        <div class="col-2">
             <div class="weather-forecast-date">Sunday</div>
-            <div class="weather">☁</div>
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="" width="39">
             <div class="weather-forecast-temperatures">
              <span class="weather-forecast-temperature-max">6º |</span>
              <span class="weather-forecast-temperature-min"> -1º</span>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="second">
-            <div class="weather-forecast-date">Monday</div>
-            <div class="weather">☁</div>
-            <div class="weather-forecast-temperatures">
-             <span class="weather-forecast-temperature-max">8º |</span>
-             <span class="weather-forecast-temperature-min"> 3º</span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="third">
-            <div class="weather-forecast-date">Tuesday</div>
-            <div class="weather">🌧</div>
-            <div class="weather-forecast-temperatures">
-            <span class="weather-forecast-temperature-max">5º |</span>
-             <span class="weather-forecast-temperature-min"> 1º</span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="fourth">
-            <div class="weather-forecast-date">Wednesday</div>
-            <div class="weather">🌧</div>
-            <div class="weather-forecast-temperatures">
-             <span class="weather-forecast-temperature-max">10º |</span>
-             <span class="weather-forecast-temperature-min"> 2º</span>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
     <footer>
       <a href="https://github.com/guiomarandrino/weather-app"
         >Open-source code</a
       >
       <span>by Guiomar Andrino</span>
     </footer>
+    </div>
+    </div>
+    </div>
+    
     <script src="src/script.js"></script>
   </body>
 </html>
