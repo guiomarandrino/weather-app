@@ -105,7 +105,6 @@ button:hover {
 a {
   text-decoration: none;
   text-decoration-color: currentColor;
-  cursor: default;
 }
 
 #icon {
